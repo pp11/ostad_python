@@ -32,3 +32,9 @@ print(t_new)
 
 print(t.index('banana'))
 print(t.count('apple'))
+
+
+
+l=[2,4,1,3,6,59,12]
+
+print(sorted(l))

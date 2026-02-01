@@ -51,3 +51,13 @@ def test(**data):
     print(f'I am {data['f_name']} {data['l_name']}. My age is {data['age']}')
 
 test(age=35, f_name='priyanka',l_name='podder')
+
+def my_name(f_name, l_name="podder"):
+    print(f'my name is {f_name} {l_name}')
+
+my_name("priyanka")
+
+def my_name2(f_name, l_name="podder"):
+    pass
+
+my_name2("priyanka")

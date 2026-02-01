@@ -29,3 +29,9 @@ for i in a:
 
 result_new=[i**2  if i%2==0 else i for i in a]
 print(result_new)
+
+l={1,2,3,4,5,6}
+
+r=list((i+3 for i in l if i%2==0))
+
+print(r)
